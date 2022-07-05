@@ -7,9 +7,9 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
 var oyun = [
-        "!vkbilgi | 🎥 Instagram - yefeblgn",
-        "Vampir Köylü Botumuz Aktif! v0.1 ✨",
-        "!vkkatıl | 👨🏽‍💻 Coded by yefeblgn"  
+        "steamcommunity.com/id/yefeblgn",
+        "instagram.com/yefeblgn",
+        "youtube.com/c/yefeblgn"  
     ];
 
     setInterval(function() {
