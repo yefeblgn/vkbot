@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 exports.run = (client, message, args) => {
     message.delete()
-    if (!message.member.roles.find("name", "🏆 | Kurucu")) {
-        return message.channel.send(' **Bu Komutu Kullanmak için** \*`🏆 | Kurucu*\` **Rolüne Sahip Olman Lazım** ')
+    if (!message.member.roles.find("name", "ROL İSMİ")) {
+        return message.channel.send(' **Bu Komutu Kullanmak için** \*`ROL İSMİ*\` **Rolüne Sahip Olman Lazım** ')
             .then(m => m.delete(5000));
     }
   if (!message.guild) {
@@ -44,6 +44,6 @@ exports.conf = {
 
 exports.help = {
   name: 'doktor',
-  description: 'Bir kullanÄ±cÄ±ya Ã¶zel mesaj yollar.',
+  description: '',
   usage: 'doktor'
 };
